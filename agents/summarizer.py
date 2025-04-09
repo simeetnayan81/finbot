@@ -1,15 +1,14 @@
 # agents/summarizer.py
 
 from autogen import AssistantAgent, UserProxyAgent
-from config import GEMINI_API_KEY
 from dotenv import load_dotenv
 
 load_dotenv()
 
 # Set up OpenAI API key
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-if not OPENAI_API_KEY:
-    raise ValueError("Please set OPENAI_API_KEY in your environment or .env file")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+if not GEMINI_API_KEY:
+    raise ValueError("Please set GEMINI_API_KEY in your environment or .env file")
 
 
 config_list =  {
