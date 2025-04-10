@@ -31,8 +31,8 @@ An Agentic AI-powered system that automatically **searches, scrapes, and summari
 
 1. **Clone the repo**:
     ```bash
-    git clone https://github.com/yourusername/finance-news-aggregator.git
-    cd finance-news-aggregator
+    git clone git@github.com:simeetnayan81/finbot.git
+    cd finbot
     ```
 
 2. **Set up a virtual environment**:
