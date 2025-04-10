@@ -1,4 +1,4 @@
-# 📈 Finance News Aggregator using Agentic AI (Gemini + AutoGen)
+# 📈 Finbot - Finance News Aggregator using Agentic AI (Gemini + AutoGen)
 
 An Agentic AI-powered system that automatically **searches, scrapes, and summarizes** financial news about a given stock or security from trusted websites like **Yahoo Finance**, **Bloomberg**, **Reuters**, and more. This project leverages **Google's Gemini 2.0 Flash model** for summarization and **AutoGen** for multi-agent orchestration.
 
